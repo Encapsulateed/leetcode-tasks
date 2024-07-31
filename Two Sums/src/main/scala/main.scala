@@ -1,7 +1,6 @@
 @main
 def main(): Unit = {
   import Solution._
- // println(twoSum(Array(2, 7, 11, 15), 9).mkString("Array(", ", ", ")"))
   assert(twoSum(Array(2, 7, 11, 15), 9) sameElements Array(0, 1))
 }
 
